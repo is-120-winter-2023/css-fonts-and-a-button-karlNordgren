@@ -29,6 +29,9 @@ body {
 
 footer {
   word-wrap: break-word;
+  background-color: #205373;
+  padding: 4rem 1rem 6rem;
+  color: white;
 }
 
 img,
@@ -91,5 +94,21 @@ a {
 }
 
 a[href]:hover {
+}
+
+/*general purpose styles*/
+.button {
+  display: inline-block;
+  border: 1px solid var(--color-primary);
+  padding: 0.5rem 1rem;
+  transition: background-color 300ms ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+a.button:hover {
   text-decoration: underline;
 }
