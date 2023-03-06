@@ -38,6 +38,7 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 input,
@@ -64,3 +65,31 @@ h6 {
 } */
 
 /* add your CSS here */
+:root {
+  --color-font: #333;
+  --color-primary: #205373; /* dark blue */
+  --color-secondary: #517ea6; /* light blue */
+  --color-accent: #a6653f; /* orange brown */
+  --color-accent-light: #f2bc8d; /* light tan */
+}
+
+body {
+  font-family: "Fauna One", serif;
+  color: var(--color-font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel", serif;
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
