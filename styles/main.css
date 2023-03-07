@@ -36,6 +36,7 @@ footer {
   background-color: #205373;
   padding: 4rem 1rem 6rem;
   color: white;
+  text-align: center;
 }
 
 img,
@@ -46,6 +47,7 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 input,
@@ -78,6 +80,7 @@ h6 {
   --color-secondary: #517ea6; /* light blue */
   --color-accent: #a6653f; /* orange brown */
   --color-accent-light: #f2bc8d; /* light tan */
+  --gap: 3rem;
 }
 
 body {
@@ -90,6 +93,7 @@ h2,
 h3 {
   font-family: "Cinzel", serif;
   color: var(--color-primary);
+  margin: 1em 0 0.5em;
 }
 
 a {
@@ -98,6 +102,7 @@ a {
 }
 
 a[href]:hover {
+  text-decoration: none;
 }
 
 /*general purpose styles*/
@@ -114,5 +119,9 @@ a[href]:hover {
 }
 
 a.button:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: var(--gap);
 }
